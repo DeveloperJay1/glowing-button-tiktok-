@@ -1,1 +1,3 @@
-# glowing-button for the tiktok users. Feel free to use it!
+# glowing-button for the everyone. Feel free to use it!
+
+# Made by DeveloperJay aka this github account!
