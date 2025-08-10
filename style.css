@@ -6,7 +6,7 @@ body {
   height: 100vh;
 }
 
-.magic-button {
+.glowing-btn {
   position: relative;
   padding: 16px 40px;
   font-size: 18px;
@@ -22,7 +22,7 @@ body {
   z-index: 1;
 }
 
-.magic-button::before {
+.glowing-btn::before {
   content: '';
   position: absolute;
   top: 0;
@@ -34,12 +34,13 @@ body {
   z-index: -1;
 }
 
-.magic-button:hover::before {
+.glowing-btn:hover::before {
   left: 0;
 }
 
-.magic-button:hover {
+.glowing-btn:hover {
   color: #0d0d0d;
   box-shadow: 0 0 15px #a64eff, 0 0 30px #7f00ff;
   background: #000000;
 }
+
